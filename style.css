@@ -1,0 +1,242 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:-webkit-linear-gradient(to right, #3a025d , #93028b);
+    --secondary-color:#93028b;
+}
+.darktheam{
+    --primary-color:-webkit-linear-gradient(to right, #493240, #ff000000);
+    
+    --secondary-color:black;   
+}
+nav{
+    padding: 2rem;
+}
+ul{
+display: flex;
+justify-content: right;
+align-items: center;
+background-color: aliceblue;
+padding: 1rem;
+padding-top: 1rem;
+border-radius: 1rem;
+}
+li{
+    margin-right: 8rem;
+    list-style: none;
+    font-size: small;
+}
+
+nav ul li:nth-child(1) a {
+    background-color: yellow;
+    padding: .5rem;
+    border-radius: 0.5rem;
+    
+  }
+  nav ul li:nth-child(5) button {
+    background-color: yellow;
+    padding: .5rem;
+    border-radius: 0.5rem;
+    
+  }
+.banner{
+    height: 80vh;
+    background: var(--secondary-color) ; /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #493240, #FF0099);   */
+/* background: linear-gradient(to right, #493240, #FF0099);  */
+
+}
+.container{
+    padding: 2rem;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.col-1{
+    color: white;
+    align-items: center;
+    font-size: x-large;
+    word-wrap:break-word;
+    word-spacing: 0.5rem;
+    display: inline-flex;
+    line-height: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+.col-1 button
+{
+    padding: 1.5rem;
+    color:black;
+    background-color: yellow;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+.ps1 h1{
+    color:rgb(78, 17, 78);
+}
+.col-2 img{
+    height:18rem;
+}
+.hero{
+    padding: 2rem;
+    background-color: gainsboro;
+    height: 30rem;
+}
+
+.col{
+    background-color: #f7f7f7;
+    padding: 3.5rem;
+    margin: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+}
+
+.col img{
+    height: 100px;
+
+}
+ .hero1{
+    padding: 2rem;
+    background-color: white;
+    height: 30rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.col1{
+    background-color:white;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 120px;
+    height: 190px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width: 80%;
+    border-radius: 1rem;
+    
+}
+
+.col1 img{
+    height: 45px;
+
+}
+
+.hero2{
+    display: block; 
+    background-color: gainsboro;   
+}
+.row1{
+    text-align: center;
+}
+.row1 h1{
+    color:rgb(78, 17, 78);
+
+}
+.row1 p{
+    font-size: large;
+    
+}
+.row2{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.col2{
+    height: 60vh;
+   
+background:var(--secondary-color); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.col2 p {
+    font-size: larger;
+    color: #f7f7f7;
+    padding: 1rem;
+}
+.col2 a{
+    color:yellowgreen
+}
+.col2 img{
+    clip-path: circle();
+    height: 200px;
+}
+ 
+
+
+/* mob view */
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+   .row-1{
+    display: flex;
+     flex-direction: column;
+     
+   }
+   .col-2{
+    padding: 1rem;
+    background-color: white;
+   }
+   .row-2{
+   margin:3rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+   }
+   .row-2 col{
+    background-color: white;
+   }
+   .hero{
+    padding: 2rem;
+    background-color: white;
+    height: 30rem;
+}
+.row-3{
+    margin-top: 90rem;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    height: 15vh;
+
+}
+.ps1 h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+.foot{
+    margin-top: 100rem;
+}
+.row2{
+    flex-direction: column;
+}
+
+nav ul li{
+    margin-right:20px ;
+    
+}
+
+   
+}
